@@ -58,7 +58,7 @@ This project serves as a foundational step toward more advanced automated tumor 
 
 ---
 
-## 📂 Output
+## Output
 
 For each input image:
 
@@ -67,7 +67,7 @@ For each input image:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Open MATLAB
 2. Place the dataset folder in the project directory
