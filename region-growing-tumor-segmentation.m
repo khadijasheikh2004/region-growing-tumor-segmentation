@@ -63,10 +63,6 @@ for i = 1:length(image_files)
             end
         end
     end
-    
-    % Morphological refinement
-    region = imopen(region, strel('disk', 3));   % Remove small noise
-    region = imclose(region, strel('disk', 5));  % Fill gaps in tumor
 
     % Overlay
     tumor_overlay = img;
